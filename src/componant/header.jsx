@@ -11,14 +11,14 @@ class Header extends React.Component {
     </div>
     <ul class="non-bullet nav-pills">
         <li class="list-item-inline ">
-            <a class="link link-active  "href="/"> home</a>
+            <Link class="link link-active" to="/"> home</Link>
             <Link to="/pangongLake" >Click here</Link>
         </li>
         <li class="list-item-inline">
-            <a class="link"href="project.html">projects</a>
+            <Link class="link" to="/projects">projects</Link>
         </li>
         <li class="list-item-inline"> 
-            <a class = "link "href="blogs.html">blog</a>
+            <Link class="link" to="blogs.html">blog</Link>
         </li>
     </ul>
 </nav>

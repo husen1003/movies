@@ -11,6 +11,7 @@ import Ladakh from "./componant/ladakh/ladakh";
 import Manali from "./componant/manali/manali";
 import Footer from "./componant/footer";
 import Login from "./componant/login";
+import Projects from "./componant/Projects";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path = "/ladakh" component={Ladakh} exact />
         <Route path = "/manali" component={Manali} exact />
         <Route path ="/login" component={Login} exact/>
+        <Route path ="/projects" component={Projects} exact/>
         {/* <Route path = "/footer" component={footer} exact/> */}
         
 
